@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wsip.header">
+		<item name="wsip.header.userMenu.pm"><![CDATA[Private Nachrichten]]></item>
+		<item name="wsip.header.userMenu.userGroupLeader"><![CDATA[Gruppenleitung]]></item>
+	</category>
+	<category name="wsip.pm">
+		<item name="wsip.pm.notification.report"><![CDATA[Du hast {#$outstandingNotifications|count} ungelesene private Nachricht{if $outstandingNotifications|count > 1}en{/if}:]]></item>
+	</category>
+</language>
